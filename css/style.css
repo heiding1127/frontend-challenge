@@ -29,40 +29,36 @@ p {
   text-align: left
 }
 
+.main {
+  width: 420px;
+  height: auto;
+  margin: auto
+}
+
 .container {
   margin: 0 auto;
   width: 420px;
-  display: inline-block
 }
 
-nav {
+.navbar {
   background-color: #fafafa;
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
+  height: 50px
 }
 
-.hamberger-menu {
+.hambergar-menu {
   width: 35px;
   height: 5px;
-  background: #333333;
-  margin: 6px 0px
+  background-color: black;
+  margin: 6px 0;
+  display: flex;
 }
 
-.content {
-  width: 420px;
-  padding-top: 45px;
-}
-
-.bus-schedule {
-  display: inline-block;
-  width: 100%;
-  border-bottom: thin solid black;
+.navigation {
   background-color: #fafafa;
-  position: relative
-}
-
-.location:hover {
-  background-color: #aaaaaa;
+  margin: auto;
+  width: 420px
 }
