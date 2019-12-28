@@ -11,33 +11,46 @@ body {
 h1 {
   font-size: 20px;
   font-weight: bold;
-  color: white;
-  text-align: center
+  color: blacks;
+  text-align: left
 }
 
 h3 {
   font-size: 20px;
+  text-transform: uppercase;
   font-weight: bold;
   color: orange;
   text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 18px;
+  left: 7px
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #3d3d3d;
+  text-align: left;
+  padding:
 }
 
 p {
-  font-size: 10px;
-  text-align: left
+  font-size: 12px;
+  text-align: left;
+  color: #3d3d3d
 }
 
 .main {
   width: 420px;
-  height: auto;
-  margin: auto
+  height: 100vh;
+  margin: auto;
+  background-color: white;
 }
 
 .container {
   margin: 0 auto;
   width: 420px;
-  height: 100px;
-  color: white
 }
 
 .navbar {
@@ -57,16 +70,63 @@ p {
 }
 
 .navigation {
-  padding: 0 20px 0 0;
+  padding: 60px 20px 0 0;
   margin: 0 auto;
-  width: 420px;
-  background-color: white;
+  width: 420px
 }
 
 .box {
-  margin: 0 auto;
-  padding: 20px 10px 10px 30px;
+  margin: 5px 20px;
+  padding: 14px 10px 10px 10px;
+  width: 380px;
+  height: 40px;
+  background-color: #fafafa;
+  position: static;
+}
+
+.main-content{
+  margin: 4% auto;
   width: 420px;
-  height: auto;
-  background-color: white
+}
+
+.header {
+  margin: 0 auto;
+  padding: 8px 10px 10px 10px;
+  width: 380px;
+  height: 30px;
+  background-color: red;
+  position: fixed;
+}
+
+.content  {
+  margin: 0 auto;
+  padding: 8px 50px 8px 10px;
+  width: 380px;
+  background-color: orange
+}
+
+.schedule{
+  margin: auto;
+  width: 420px;
+}
+
+.content1{
+  margin: 0 auto;
+  padding: 10px 10px 10px;
+  width: 380px;
+  background-color: #fafafa
+}
+
+th {
+  margin: 0 auto;
+  text-align: left;
+  padding: 10px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: black
+}
+
+td {
+  padding: 0px 10px 10px 10px;
+  font-size: 14px
 }
